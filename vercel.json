@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/caesarchiper.py",
+        "src": "caesarchiper.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "api/caesarchiper.py"
+        "dest": "caesarchiper.py"
       }
     ]
   }
